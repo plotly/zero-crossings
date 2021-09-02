@@ -1,6 +1,6 @@
 {
   "name": "zero-crossings",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Finds all zero crossings in a 1D ndarray",
   "main": "zc.js",
   "directories": {
