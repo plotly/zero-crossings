@@ -6,18 +6,13 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "cwise-compiler": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "cwise-parser": "^0.0.1",
     "ndarray": "^1.0.11",
-    "tape": "^2.12.3",
-    "js-beautify": "^1.4.2"
+    "tape": "^2.12.3"
   },
   "scripts": {
-    "test": "tape test/*.js",
-    "build": "node lib/generate-module.js > lib/zc-core.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
